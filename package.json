@@ -1,0 +1,19 @@
+{
+  "name": "vitest-coverage-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitest/coverage-istanbul": "^0.34.1",
+    "vitest": "^0.34.1"
+  },
+  "devDependencies": {
+    "jsdom": "^22.1.0"
+  }
+}
